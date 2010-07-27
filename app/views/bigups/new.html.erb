@@ -18,10 +18,8 @@
   </p>
 <% end %>
 
-<% for bigup in @bigups %>
-  <tr>
-    <td><%= h bigup.title %></td>
-    <td><%= h bigup.name %></td>
-    <td><%= h bigup.content %></td>
-  </tr>
-<% end %>
+<%= will_paginate %>
+<div class="bigups">
+  <%= render @bigups %>
+</div>
+<%= will_paginate %>
