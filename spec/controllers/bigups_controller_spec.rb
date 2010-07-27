@@ -1,17 +1,20 @@
 require 'spec_helper'
 
 describe BigupsController do
+  integrate_views
 
-  #Delete these examples and add some real ones
-  it "should use BigupsController" do
-    controller.should be_an_instance_of(BigupsController)
+  before(:each) do
+    @bigup = Factory(:bigup)
+
+    30.times do
+      @bigups << Factory(:bigup)
+    end
   end
 
-
-  describe "GET 'new'" do
-    it "should be successful" do
-      get 'new'
-      response.should be_success
+  it "should have an element for each thread" do
+    get :index
+    @bigups.each do |bigup|
+      response.should have_tag("td", bigup.title)
     end
   end
 end

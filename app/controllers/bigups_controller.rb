@@ -1,7 +1,7 @@
 class BigupsController < ApplicationController
-  #def index
-  #  @bigups = Bigups.paginate(:page => params[:page])
-  #end
+  def index
+    @bigups = Bigup.all
+  end
 
   def create
     @bigup = Bigup.new(params[:bigup])
@@ -9,8 +9,9 @@ class BigupsController < ApplicationController
       flash[:success] = "congrats"
       redirect_to root_path
     else
+      @bigups = []
       flash[:error] = "uh oh"
-      render 'pages/home'
+      redirect_to root_path
     end
   end
 

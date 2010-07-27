@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    @bigups = Bigup.paginate(:page => params[:page])
+    @bigups = Bigup.all
   end
 
 end
