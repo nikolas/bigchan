@@ -468,3 +468,18 @@ Rendering pages/home
 Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/]
   [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-27 05:23:57', 'fp!', '2010-07-27 05:23:57', 'this is it.')[0m
   [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-27 05:23:57', 'fp!', '2010-07-27 05:23:57', 'this is it.')[0m
+  [4;36;1mBigup Create (0.4ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-27 05:59:01', 'value for title', '2010-07-27 05:59:01', 'value for content')[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-27 00:59:01) [GET]
+  [4;35;1mBigup Load (0.2ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-27 00:59:01) [GET]
+  [4;36;1mBigup Load (0.2ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/]
