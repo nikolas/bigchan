@@ -76,3 +76,4 @@ Migrating to CreateBigups (20100727013913)
   [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM "schema_migrations"[0m
   [4;35;1mSQL (1.2ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20100727013913')[0m
   [4;36;1mBigup Load (0.4ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+  [4;36;1mBigup Load (1.0ms)[0m   [0;1mSELECT * FROM "bigups" [0m
