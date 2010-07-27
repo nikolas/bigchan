@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Bigup do
   before(:each) do
-    @valid_attributes = {
+    @attr = {
       :name => "value for name",
       :title => "value for title",
       :content => "value for content"
@@ -10,6 +10,6 @@ describe Bigup do
   end
 
   it "should create a new instance given valid attributes" do
-    Bigup.create!(@valid_attributes)
+    Bigup.create!(@attr)
   end
 end

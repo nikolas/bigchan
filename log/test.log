@@ -1,0 +1,241 @@
+Rendering pages/home
+Rendering bigups/new
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:39:59) [GET]
+Rendering pages/home
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:39:59) [GET]
+Rendering pages/home
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 22:39:59) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+Rendering pages/home
+Rendering bigups/new
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:52:33) [GET]
+Rendering pages/home
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:52:33) [GET]
+Rendering pages/home
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 22:52:33) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+Rendering pages/home
+Rendering bigups/new
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:57:48) [GET]
+Rendering pages/home
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:57:48) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 22:57:48) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+Rendering pages/home
+Rendering bigups/new
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:58:51) [GET]
+Rendering pages/home
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 22:58:51) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 22:58:51) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:10:03) [GET]
+Rendering pages/home
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:10:03) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:10:03) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:11:43) [GET]
+Rendering pages/home
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:11:43) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:11:43) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:14:08) [GET]
+  [4;36;1mBigup Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:14:08) [GET]
+  [4;35;1mBigup Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:14:08) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:14:31) [GET]
+  [4;36;1mBigup Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:14:31) [GET]
+  [4;35;1mBigup Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:14:31) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:16:39) [GET]
+  [4;36;1mBigup Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:16:39) [GET]
+  [4;35;1mBigup Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:16:39) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:18:27) [GET]
+  [4;36;1mBigup Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:18:27) [GET]
+  [4;35;1mBigup Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: bigups: SELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:18:27) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+  [4;36;1mBigup Create (0.4ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-27 04:18:41', 'value for title', '2010-07-27 04:18:41', 'value for content')[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:18:41) [GET]
+  [4;35;1mBigup Load (0.2ms)[0m   [0mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering pages/home
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:18:41) [GET]
+  [4;36;1mBigup Load (0.2ms)[0m   [0;1mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:18:41) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+  [4;36;1mBigup Create (0.4ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-27 04:18:48', 'value for title', '2010-07-27 04:18:48', 'value for content')[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:18:48) [GET]
+  [4;35;1mBigup Load (0.2ms)[0m   [0mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering pages/home
+Completed in 3ms (View: 1, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:18:48) [GET]
+  [4;36;1mBigup Load (0.2ms)[0m   [0;1mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:18:48) [GET]
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+  [4;36;1mBigup Create (0.4ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-27 04:23:50', 'value for title', '2010-07-27 04:23:50', 'value for content')[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:23:50) [GET]
+  [4;35;1mBigup Load (0.2ms)[0m   [0mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering pages/home
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:23:50) [GET]
+  [4;36;1mBigup Load (0.2ms)[0m   [0;1mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering pages/home
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:23:50) [GET]
+Rendering template within layouts/application
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+  [4;36;1mBigup Create (0.4ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-27 04:26:10', 'value for title', '2010-07-27 04:26:10', 'value for content')[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:26:10) [GET]
+  [4;35;1mBigup Load (0.2ms)[0m   [0mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering pages/home
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:26:10) [GET]
+  [4;36;1mBigup Load (0.2ms)[0m   [0;1mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering pages/home
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:26:10) [GET]
+Rendering template within layouts/application
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
+  [4;36;1mBigup Create (0.4ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-27 04:28:19', 'value for title', '2010-07-27 04:28:19', 'value for content')[0m
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:28:19) [GET]
+  [4;35;1mBigup Load (0.2ms)[0m   [0mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-07-26 23:28:19) [GET]
+  [4;36;1mBigup Load (0.2ms)[0m   [0;1mSELECT * FROM "bigups" LIMIT 30 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/]
+
+
+Processing BigupsController#new (for 0.0.0.0 at 2010-07-26 23:28:19) [GET]
+Rendering template within layouts/application
+Rendering bigups/new
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/bigups/new]
