@@ -1,5 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
-  map.root :controller => 'bigups', :action => 'new'
+  map.root :controller => 'pages', :action => 'home'
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

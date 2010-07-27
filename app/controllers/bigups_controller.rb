@@ -1,11 +1,15 @@
 class BigupsController < ApplicationController
-  def new
-    @bigups = Bigup.paginate(:page => params[:page])
+  def index
+    @bigups = Bigups.paginate(:page => params[:page])
 
     respond_to do |format|
       format.html
       format.xml { render :xml => @bigups }
     end
+  end
+
+  def new
+    @bigup = Bigup.new
   end
 
   def create
