@@ -1,0 +1,5 @@
+<% unless @spool_items.empty? %>
+  <table class="bigspool">
+    <%= render :partial => 'spool_item', :collection => @spool_items %>
+  </table>
+<% end %>

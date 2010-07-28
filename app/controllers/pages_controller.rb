@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    @bigups = Bigup.all
+    @spool_items = Bigup.all
   end
 
 end

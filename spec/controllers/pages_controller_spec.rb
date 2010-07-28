@@ -28,7 +28,9 @@ describe PagesController do
     it "should have an element for each thread" do
       get :home
       @bigups.each do |bigup|
-        response.should have_tag("td", bigup.title)
+        response.should have_tag("span", bigup.title)
+        response.should have_tag("span", bigup.name)
+        response.should have_tag("span", bigup.content)
       end
     end
   end

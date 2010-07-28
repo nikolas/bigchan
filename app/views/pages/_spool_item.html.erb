@@ -1,0 +1,14 @@
+<tr>
+  <td class="littlespool">
+    <span class="title">
+      <%= h spool_item.title %>
+    </span>
+    <span class="name">
+      <%= h spool_item.name %>
+    </span>
+    <span class="content"><%= display wrap spool_item.content %></span>
+    <span class="timestamp">
+      Posted <%= time_ago_in_words(spool_item.created_at) %> ago.
+    </span>
+  </td>
+</tr>
