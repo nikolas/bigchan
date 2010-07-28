@@ -25,6 +25,13 @@ describe BigupsController do
       response.should have_tag("title", /bigchan/i)
     end
 
+    it "should show the post form" do
+      get :index
+      response.should have_tag("div", /title/i)
+      response.should have_tag("div", /name/i)
+      response.should have_tag("div", /content/i)
+    end
+
     it "should have an element for each thread" do
       get :index
       @bigups.each do |bigup|
@@ -32,23 +39,6 @@ describe BigupsController do
         response.should have_tag("span", bigup.name)
         response.should have_tag("span", bigup.content)
       end
-    end
-  end
-
-  describe "GET 'new'" do
-    before(:each) do
-      get :new
-    end
-
-    it "should be successful" do
-      response.should be_success
-    end
-
-    it "should show the post form" do
-      get :new
-      response.should have_tag("div", /title/i)
-      response.should have_tag("div", /name/i)
-      response.should have_tag("div", /content/i)
     end
   end
 end

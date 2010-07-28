@@ -1,5 +1,6 @@
 class BigupsController < ApplicationController
   def index
+    @bigup = Bigup.new
     @bigups = Bigup.all
   end
 
