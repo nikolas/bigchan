@@ -1,0 +1,9 @@
+<p>
+welcome to bigchan, this is it.
+</p>
+
+<%= render :action => 'new' %>
+
+<% unless @bigups.empty? %>
+  <%= render @bigups %>
+<% end %>
