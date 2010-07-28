@@ -1,7 +1,8 @@
 <h1>welcome to bigchan, this is it.</h1>
 
-<%= render :action => 'new' %>
+<%= render 'form' %>
 
-<% unless @bigups.empty? %>
+<% ;
+unless @bigups.empty? %>
   <%= render @bigups %>
 <% end %>

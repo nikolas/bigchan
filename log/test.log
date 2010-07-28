@@ -7174,3 +7174,1068 @@ Rendered bigups/_bigup (0.2ms)
 Rendered bigups/_bigup (0.2ms)
 Rendered bigups/_bigup (0.2ms)
 Completed in 14ms (View: 11, DB: 2) | 200 OK [http://test.host/bigups]
+  [4;36;1mBigup Create (0.4ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-28 02:18:51', 'value for title', '2010-07-28 02:18:51', 'value for content')[0m
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.3ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:18:51) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (5.8ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 24ms (View: 20, DB: 5) | 200 OK [http://test.host/bigups]
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:18:51) [GET]
+  [4;36;1mBigup Load (1.9ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.6ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Completed in 78ms (View: 75, DB: 4) | 200 OK [http://test.host/bigups]
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:51', 'fp!', '2010-07-28 02:18:51', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:18:51) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 15ms (View: 12, DB: 4) | 200 OK [http://test.host/bigups]
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:18:51) [GET]
+  [4;35;1mBigup Load (1.9ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 15ms (View: 12, DB: 2) | 200 OK [http://test.host/bigups]
+  [4;36;1mBigup Create (0.3ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:18:52', 'fp!', '2010-07-28 02:18:52', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:18:52) [GET]
+  [4;35;1mBigup Load (1.9ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 15ms (View: 12, DB: 4) | 200 OK [http://test.host/bigups]
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:18:52) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 14ms (View: 11, DB: 2) | 200 OK [http://test.host/bigups]
+  [4;36;1mBigup Create (0.6ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-28 02:19:37', 'value for title', '2010-07-28 02:19:37', 'value for content')[0m
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:19:37) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (5.9ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Completed in 24ms (View: 20, DB: 5) | 200 OK [http://test.host/bigups]
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:37', 'fp!', '2010-07-28 02:19:37', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:19:38) [GET]
+  [4;36;1mBigup Load (1.9ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.5ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Completed in 77ms (View: 74, DB: 4) | 200 OK [http://test.host/bigups]
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:19:38) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Completed in 15ms (View: 12, DB: 4) | 200 OK [http://test.host/bigups]
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:19:38) [GET]
+  [4;35;1mBigup Load (1.9ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 15ms (View: 12, DB: 2) | 200 OK [http://test.host/bigups]
+  [4;36;1mBigup Create (0.3ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.2ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 02:19:38', 'fp!', '2010-07-28 02:19:38', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:19:38) [GET]
+  [4;35;1mBigup Load (1.9ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 15ms (View: 12, DB: 4) | 200 OK [http://test.host/bigups]
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-27 21:19:38) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 14ms (View: 11, DB: 2) | 200 OK [http://test.host/bigups]
+  [4;36;1mBigup Create (0.8ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('value for name', '2010-07-28 19:27:32', 'value for title', '2010-07-28 19:27:32', 'value for content')[0m
+  [4;35;1mBigup Create (0.4ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-28 14:27:32) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_form (3.1ms)
+Rendered bigups/_bigup (27.9ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 58ms (View: 53, DB: 5) | 200 OK [http://test.host/bigups]
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-28 14:27:32) [GET]
+  [4;36;1mBigup Load (1.9ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_form (2.3ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.5ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 80ms (View: 77, DB: 4) | 200 OK [http://test.host/bigups]
+  [4;35;1mBigup Create (0.3ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-28 14:27:32) [GET]
+  [4;36;1mBigup Load (1.9ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_form (2.2ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 17ms (View: 14, DB: 4) | 200 OK [http://test.host/bigups]
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-28 14:27:32) [GET]
+  [4;35;1mBigup Load (1.8ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_form (2.1ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 17ms (View: 14, DB: 2) | 200 OK [http://test.host/bigups]
+  [4;36;1mBigup Create (0.3ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;35;1mBigup Create (0.1ms)[0m   [0mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+  [4;36;1mBigup Create (0.1ms)[0m   [0;1mINSERT INTO "bigups" ("name", "created_at", "title", "updated_at", "content") VALUES('Billy Zilch', '2010-07-28 19:27:32', 'fp!', '2010-07-28 19:27:32', 'this is it.')[0m
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-28 14:27:32) [GET]
+  [4;35;1mBigup Load (1.9ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_form (2.2ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Completed in 17ms (View: 14, DB: 4) | 200 OK [http://test.host/bigups]
+
+
+Processing BigupsController#index (for 0.0.0.0 at 2010-07-28 14:27:32) [GET]
+  [4;36;1mBigup Load (1.8ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_form (2.1ms)
+Rendered bigups/_bigup (0.4ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.3ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.2ms)
+Rendered bigups/_bigup (0.3ms)
+Completed in 17ms (View: 14, DB: 2) | 200 OK [http://test.host/bigups]
