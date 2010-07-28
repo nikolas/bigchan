@@ -34,4 +34,14 @@ describe BigupsController do
       end
     end
   end
+
+  describe "GET 'new'" do
+    before(:each) do
+      get :new
+    end
+
+    it "should be successful" do
+      response.should be_success
+    end
+  end
 end
