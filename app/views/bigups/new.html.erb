@@ -1,5 +1,17 @@
 <% form_for(@bigup) do |b| %>
-  <%= render :partial => 'fields', :locals => {:b => b } %>
+  <%= b.error_messages %>
+  <div class="field">
+    <%= b.label :title %><br />
+    <%= b.text_field :title %>
+  </div>
+  <div class="field">
+    <%= b.label :name %><br />
+    <%= b.text_field :name %>
+  </div>
+  <div class="field">
+    <%= b.label :content %><br />
+    <%= b.text_area :content %>
+  </div>
   <div class="actions">
     <%= b.submit "post" %>
   </div>

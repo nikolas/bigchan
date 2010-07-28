@@ -43,5 +43,12 @@ describe BigupsController do
     it "should be successful" do
       response.should be_success
     end
+
+    it "should show the post form" do
+      get :new
+      response.should have_tag("div", /title/i)
+      response.should have_tag("div", /name/i)
+      response.should have_tag("div", /content/i)
+    end
   end
 end
