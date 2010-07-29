@@ -21,7 +21,7 @@ class Bigup < ActiveRecord::Base
       :path => "/:style/:filename"
 
   validates_attachment_presence :pic
-  validates_attachment_size :pic, :less_than => 5.megabytes
-  validates_attachment_content_type :pic, :content_type => ['image/jpg',
-      'image/png', 'image/gif', 'image/bmp']
+  #validates_attachment_size :pic, :less_than => 5.megabytes
+  #validates_attachment_content_type :pic, :content_type => ['image/jpg',
+  #    'image/png', 'image/gif', 'image/bmp']
 end

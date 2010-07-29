@@ -1,6 +1,6 @@
 class BigupsController < ApplicationController
   def index
-    @bigups = Bigup.all
+    @bigups = Bigup.all.reverse
     @new_bigup = Bigup.new
   end
 

@@ -1,0 +1,49 @@
+body {
+  background: #bad;
+}
+
+
+#header {
+  padding-top: 20px;
+}
+
+h1 {
+  float: center;
+}
+
+#content {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+table.bigups tr {
+  float: center;
+  width: 50px;
+  vertical-align: top;
+}
+
+table.bigups tr td.bigup {
+  text-align: center;
+  padding-top: 10px;
+  display: block;
+  vertical-align: top;
+}
+
+form.new_bigup {
+  margin-bottom: 2em;
+}
+
+form.new_bigup textarea {
+  height: 4em;
+  margin-bottom: 0;
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius:    250px;
+  -webkit-border-radius: 250px;
+  border-radius:         250px;
+}

@@ -1,9 +1,11 @@
 <center>
 <h1>welcome to bigchan, this is it.</h1>
 
+<table class="bigups">
 <% unless @bigups.empty? %>
   <%= render @bigups %>
 <% end %>
+</table>
 
 <%= render 'form' %>
 </center>
