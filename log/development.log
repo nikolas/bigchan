@@ -9360,3 +9360,51 @@ Rendered bigups/_bigup (3.3ms)
 Rendered bigups/_bigup (3.5ms)
 Rendered bigups/_form (2.3ms)
 Completed in 39ms (View: 33, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BigupsController#index (for 127.0.0.1 at 2010-07-28 22:17:48) [GET]
+  [4;36;1mBigup Load (1.0ms)[0m   [0;1mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (12.7ms)
+Rendered bigups/_bigup (3.0ms)
+Rendered bigups/_bigup (3.0ms)
+Rendered bigups/_bigup (3.0ms)
+Rendered bigups/_bigup (3.1ms)
+Rendered bigups/_bigup (3.4ms)
+Rendered bigups/_form (3.2ms)
+Completed in 124ms (View: 117, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BigupsController#index (for 127.0.0.1 at 2010-07-28 22:17:52) [GET]
+  [4;35;1mBigup Load (1.0ms)[0m   [0mSELECT * FROM "bigups" [0m
+Rendering template within layouts/application
+Rendering bigups/index
+Rendered bigups/_bigup (6.7ms)
+Rendered bigups/_bigup (3.2ms)
+Rendered bigups/_bigup (3.1ms)
+Rendered bigups/_bigup (3.2ms)
+Rendered bigups/_bigup (3.0ms)
+Rendered bigups/_bigup (3.3ms)
+Rendered bigups/_form (2.3ms)
+Completed in 35ms (View: 28, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing BigupsController#create (for 127.0.0.1 at 2010-07-28 22:18:02) [POST]
+  Parameters: {"commit"=>"post", "authenticity_token"=>"BFYacckSufel67HArH8bJg84HHIueyUx7rzyOYCAYL0=", "bigup"=>{"name"=>"", "title"=>"", "content"=>""}}
+Rendering /
+
+ActionView::MissingTemplate (Missing template /.erb in view path app/views):
+  app/controllers/bigups_controller.rb:19:in `create'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BigupsController#create (for 127.0.0.1 at 2010-07-28 22:18:13) [POST]
+  Parameters: {"commit"=>"post", "authenticity_token"=>"BFYacckSufel67HArH8bJg84HHIueyUx7rzyOYCAYL0=", "bigup"=>{"name"=>"", "title"=>"", "content"=>""}}
+Rendering /
+
+ActionView::MissingTemplate (Missing template /.erb in view path app/views):
+  app/controllers/bigups_controller.rb:19:in `create'
+
+Rendering rescues/layout (internal_server_error)

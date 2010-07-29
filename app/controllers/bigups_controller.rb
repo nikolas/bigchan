@@ -16,7 +16,7 @@ class BigupsController < ApplicationController
     else
       @bigups = []
       flash[:error] = "uh oh"
-      render root_path
+      redirect_to root_path
     end
   end
 

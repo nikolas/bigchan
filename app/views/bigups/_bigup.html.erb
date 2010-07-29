@@ -5,9 +5,11 @@
   <td>
     <%= h bigup.name %>
   </td>
-  <td>
-    <%= image_tag bigup.pic.url %>
-  </td>
+  <% unless bigup.pic == nil %>
+    <td>
+      <%= image_tag bigup.pic.url %>
+    </td>
+  <% end %>
   <td>
     <%= display wrap bigup.content %>
   </td>
