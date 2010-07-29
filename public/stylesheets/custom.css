@@ -44,6 +44,14 @@ form.new_bigup textarea {
   margin-bottom: 0;
 }
 
+div.flash {
+  text-align: center;
+  width: 200px;
+  -moz-border-radius:    40px;
+  -webkit-border-radius: 40px;
+  border-radius:         40px;
+}
+
 /* Round corners */
 
 .round {
