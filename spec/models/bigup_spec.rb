@@ -2,11 +2,8 @@ require 'spec_helper'
 
 describe Bigup do
   before(:each) do
-    @attr = {
-      :name => "value for name",
-      :title => "value for title",
-      :content => "value for content"
-    }
+    @bigup = Factory(:bigup)
+    #@bigup.should_receive(:save_attached_files).and_return(true)
   end
 
   it "should create a new instance given valid attributes" do

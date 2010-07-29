@@ -1,20 +1,22 @@
-<h2>Let us know what you think?</h2>
-
-<% form_for(@bigup) do |b| %>
+<div class="bigup_form">
+<h2>w4zuP?</h2>
+<% form_for @new_bigup, :html => {:multipart => true} do |b| %>
   <%= b.error_messages %>
-  <div class="field">
-    <%= b.label :title %><br />
+  <p>
+    title
     <%= b.text_field :title %>
-  </div>
-  <div class="field">
-    <%= b.label :name %><br />
+  </p>
+  <p>
+    name
     <%= b.text_field :name %>
-  </div>
-  <div class="field">
-    <%= b.label :content %><br />
+  </p>
+  <p>
+    comment
     <%= b.text_area :content %>
-  </div>
-  <div class="actions">
-    <%= b.submit "post" %>
-  </div>
+  </p>
+  <p>
+    <%= b.file_field :pic %>
+  </p>
+  <p><%= b.submit "post" %></p>
 <% end %>
+</div>

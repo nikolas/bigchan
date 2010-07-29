@@ -1,14 +1,17 @@
 <tr>
-  <td class="littlespool">
-    <span class="title">
-      <%= h bigup.title %>
-    </span>
-    <span class="name">
-      <%= h bigup.name %>
-    </span>
-    <span class="content"><%= display wrap bigup.content %></span>
-    <span class="timestamp">
-      Posted <%= time_ago_in_words(bigup.created_at) %> ago.
-    </span>
+  <td>
+    <%= h bigup.title %>
+  </td>
+  <td>
+    <%= h bigup.name %>
+  </td>
+  <td>
+    <%= image_tag bigup.pic.url %>
+  </td>
+  <td>
+    <%= display wrap bigup.content %>
+  </td>
+  <td>
+    Posted <%= time_ago_in_words(bigup.created_at) %> ago.
   </td>
 </tr>

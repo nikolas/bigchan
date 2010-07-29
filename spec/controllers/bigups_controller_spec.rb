@@ -27,17 +27,17 @@ describe BigupsController do
 
     it "should show the post form" do
       get :index
-      response.should have_tag("div", /title/i)
-      response.should have_tag("div", /name/i)
-      response.should have_tag("div", /content/i)
+      response.should have_tag("p", /title/i)
+      response.should have_tag("p", /name/i)
+      response.should have_tag("p", /comment/i)
     end
 
     it "should have an element for each thread" do
       get :index
       @bigups.each do |bigup|
-        response.should have_tag("span", bigup.title)
-        response.should have_tag("span", bigup.name)
-        response.should have_tag("span", bigup.content)
+        response.should have_tag("td", bigup.title)
+        response.should have_tag("td", bigup.name)
+        response.should have_tag("td", bigup.content)
       end
     end
   end

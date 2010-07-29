@@ -1,12 +1,12 @@
 class BigupsController < ApplicationController
   def index
-    @bigup = Bigup.new
     @bigups = Bigup.all
+    @new_bigup = Bigup.new
   end
 
-  def new
-    @bigup = Bigup.new
-  end
+  #def new
+  #  @bigup = Bigup.new
+  #end
 
   def create
     @bigup = Bigup.new(params[:bigup])
