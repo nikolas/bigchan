@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  float: center;
+  text-align: center;
 }
 
 #content {
@@ -29,6 +29,10 @@ table.bigups tr td.bigup {
   padding-top: 10px;
   display: block;
   vertical-align: top;
+}
+
+div.bigup_form {
+  text-align: center;
 }
 
 form.new_bigup {
