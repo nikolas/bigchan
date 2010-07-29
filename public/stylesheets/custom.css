@@ -2,7 +2,6 @@ body {
   background: #bad;
 }
 
-
 #header {
   padding-top: 20px;
 }
@@ -16,6 +15,10 @@ h1 {
   font-size: 120%;
   padding: 20px;
   background: #fff;
+}
+
+#comment {
+  background: #bab;
 }
 
 table.bigups tr {
