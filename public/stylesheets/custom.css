@@ -17,12 +17,15 @@ h1 {
   background: #fff;
 }
 
-#comment {
-  background: #bab;
+.title {
+  font-size: 120%;
+}
+
+.timestamp {
+  font-size: 80%;
 }
 
 table.bigups tr {
-  float: center;
   width: 50px;
   vertical-align: top;
 }

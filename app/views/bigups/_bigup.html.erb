@@ -1,15 +1,17 @@
+<table class="bigups">
 <tr>
   <td class="bigup">
-    <span class="title"><%= h bigup.title %></span>
-    <span class="name"><%= h bigup.name %></span>
     <% unless bigup.pic == nil %>
-      <span class="pic">
+      <div class="pic">
         <% link_to(bigup.pic.url) do %>
           <%= image_tag bigup.pic.url(:large) %>
         <% end %>
-      </span>
+      </div>
     <% end %>
-      <span class="comment"><%= display wrap bigup.content %></span>
-      <span class="timestamp">Posted <%= time_ago_in_words(bigup.created_at) %> ago.</span>
+    <div class="title"><%= h bigup.title %></div>
+    <div class="name"><%= h bigup.name %></div>
+    <div class="comment"><%= display wrap bigup.content %></div>
+    <div class="timestamp"><%= time_ago_in_words(bigup.created_at) %> ago.</div>
   </td>
 </tr>
+</table>
