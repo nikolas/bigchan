@@ -1,9 +1,11 @@
 <h1>welcome to bigchan, this is it.</h1>
 
 <table class="bigups">
-<% unless @bigups.empty? %>
-  <%= render @bigups %>
-<% end %>
+  <% @bigups.each do |bigup| %>
+    <%= render bigup %>
+  <% end %>
 </table>
+
+<%= will_paginate %>
 
 <%= render 'form' %>

@@ -50,6 +50,12 @@ form.new_bigup textarea {
   margin-bottom: 0;
 }
 
+.pagination {
+  text-align: center;
+  font-size: 80%;
+  margin-bottom: 2em;
+}
+
 div.flash {
   text-align: center;
   width: 200px;

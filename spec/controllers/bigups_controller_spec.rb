@@ -10,6 +10,7 @@ describe BigupsController do
     30.times do
       @bigups << Factory(:bigup)
     end
+    Bigup.should_receive(:paginate).and_return(@bigups.paginate)
   end
 
   describe "GET 'index'" do
@@ -40,5 +41,15 @@ describe BigupsController do
         response.should have_tag("td", bigup.content)
       end
     end
+
+    it "should paginate threads" do
+      response.should have_tag("div.pagination")
+    end
+
+    it "should have the right threads in the right order"
   end
+
+  describe "GET 'show'" do
+  end
+
 end

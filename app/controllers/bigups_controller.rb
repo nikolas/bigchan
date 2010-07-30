@@ -1,12 +1,8 @@
 class BigupsController < ApplicationController
   def index
-    @bigups = Bigup.all.reverse
+    @bigups = Bigup.paginate(:page => params[:page])
     @new_bigup = Bigup.new
   end
-
-  #def new
-  #  @bigup = Bigup.new
-  #end
 
   def create
     @bigup = Bigup.new(params[:bigup])
