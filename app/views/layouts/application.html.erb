@@ -7,7 +7,11 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <h1><img src="images/bigchan.png" alt="bigchan" /></h1>
+    <h1>
+    <% link_to "http://bigchan.com" do %>
+      <img src="images/bigchan.png" alt="bigchan" />
+    <% end %>
+    </h1>
     <div class="container">
       <div id="content" class="round">
         <% flash.each do |key, value| %>
