@@ -1,0 +1,8 @@
+<%= render spool.bigups.first %>
+<% if spool.bigups.length > 1 %>
+  <%= render spool.bigups.last %>
+<% end %>
+<span class="reply">
+  <%= link_to "reply", spool %>
+</span>
+<%= render 'spool_divider' %>

@@ -1,0 +1,25 @@
+<div class="spool_form">
+<h1>hey</h1>
+<% form_for @new_spool, :html => {:multipart => true} do |f| %>
+  <% f.fields_for :bigups do |b| %>
+    <%= b.error_messages %>
+    <p>
+      title
+      <%= b.text_field :title %>
+    </p>
+    <p>
+      name
+      <%= b.text_field :name %>
+    </p>
+    <p>
+      comment
+      <%= b.text_area :content %>
+    </p>
+    <p>
+      jpg, gif, png, or bmp. &lt;5MB.
+      <%= b.file_field :pic %>
+    </p>
+  <% end %>
+  <p><%= f.submit "post" %></p>
+<% end %>
+</div>

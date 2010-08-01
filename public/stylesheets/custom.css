@@ -1,3 +1,8 @@
+a {
+  color: #a8f;
+  text-decoration: none;
+}
+
 body {
   background: #bad;
 }
@@ -25,27 +30,33 @@ h1 {
   font-size: 80%;
 }
 
-table.bigups tr {
-  width: 50px;
-  vertical-align: top;
+span.reply {
+  text-align: center;
+}
+
+div.hr {
+  color: #bad;
+  background-color: #bad;
+  height: 2px;
+}
+
+div.hr hr {
+  display: none;
 }
 
 table.bigups tr td.bigup {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 6px;
   display: block;
   vertical-align: top;
 }
 
-div.bigup_form {
+form {
   text-align: center;
-}
-
-form.new_bigup {
   margin-bottom: 2em;
 }
 
-form.new_bigup textarea {
+form textarea {
   height: 4em;
   margin-bottom: 0;
 }

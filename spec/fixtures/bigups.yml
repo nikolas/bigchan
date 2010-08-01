@@ -1,5 +1,5 @@
 # == Schema Information
-# Schema version: 20100728231344
+# Schema version: 20100801000823
 #
 # Table name: bigups
 #
@@ -13,6 +13,7 @@
 #  pic_content_type :string(255)
 #  pic_file_size    :integer
 #  pic_updated_at   :datetime
+#  spool_id         :integer
 #
 
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html

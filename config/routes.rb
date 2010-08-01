@@ -1,6 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
-  map.resources :bigups
-  map.root :controller => 'bigups', :action => 'index'
+  map.resources :spools, :has_many => :bigups
+
+  map.root :spools
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

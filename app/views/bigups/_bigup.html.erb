@@ -1,7 +1,7 @@
 <table class="bigups">
 <tr>
   <td class="bigup">
-    <% unless bigup.pic == nil %>
+    <% if bigup.pic.file? %>
       <div class="pic">
         <% link_to(bigup.pic.url) do %>
           <%= image_tag bigup.pic.url(:large) %>
@@ -10,7 +10,9 @@
     <% end %>
     <div class="title"><%= h bigup.title %></div>
     <div class="name"><%= h bigup.name %></div>
-    <div class="comment"><%= display wrap bigup.content %></div>
+    <% unless bigup.content.empty? %>
+      <div class="comment"><%= display wrap bigup.content %></div>
+    <% end %>
     <div class="timestamp"><%= time_ago_in_words(bigup.created_at) %> ago.</div>
   </td>
 </tr>
