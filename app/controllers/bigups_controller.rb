@@ -3,7 +3,7 @@ class BigupsController < ApplicationController
     spool = Spool.find(params[:spool_id])
     @bigup = spool.bigups.build(params[:bigup])
     if @bigup.save
-      flash[:success] = "reply posted"
+      flash[:success] = "thread bumped!"
       redirect_to root_path
     else
       flash[:error] = "there must be something wrong with this rails app&hearts;,, ;"
