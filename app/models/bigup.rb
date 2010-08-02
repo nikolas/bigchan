@@ -15,5 +15,5 @@ class Bigup < ActiveRecord::Base
   #    'image/jpeg', 'image/png', 'image/gif', 'image/bmp'],
   #    :message => 'image must be a jpg, png, gif, or bmp'
 
-  belongs_to :spool
+  belongs_to :spool, :touch => true
 end
