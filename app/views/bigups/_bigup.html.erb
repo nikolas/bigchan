@@ -9,12 +9,12 @@
       </div>
     <% end %>
     <div class="title">
-      <%= link_to "&hearts;", [Spool.find(bigup.spool_id), bigup] %>
+      <%= link_to raw("&hearts;"), [Spool.find(bigup.spool_id), bigup] %>
       <%= display bigup.title %>
     </div>
     <div class="name"><%= display bigup.name %></div>
     <% unless bigup.content.empty? %>
-      <div class="comment"><%= bigup.content %></div>
+      <div class="comment"><%= raw(bigup.content) %></div>
     <% end %>
     <div class="timestamp">
       <%= time_ago_in_words(bigup.created_at) %> ago.

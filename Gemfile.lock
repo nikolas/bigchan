@@ -48,6 +48,7 @@ GEM
     paperclip (2.3.3)
       activerecord
       activesupport
+    pg (0.9.0)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-mount (0.6.13)
@@ -84,6 +85,7 @@ DEPENDENCIES
   annotate-models
   aws-s3
   paperclip
+  pg
   rails (= 3.0.0)
   sqlite3-ruby
   will_paginate (>= 3.0pre2)
