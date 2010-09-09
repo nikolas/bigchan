@@ -1,0 +1,151 @@
+a {
+  color: #a8f;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("/images/florvine.jpg");
+}
+
+h1 {
+  text-align: center;
+}
+
+#header_bubble {
+  -moz-border-radius:    40px;
+  -webkit-border-radius: 40px;
+  border-radius:         40px;
+}
+
+.b {
+  background-color: #eed8b9;
+  font-size: 450%;
+  -moz-border-radius:    250px;
+  -webkit-border-radius: 250px;
+  border-radius:         250px;
+  padding: 4px;
+  display: inline;
+}
+
+.bubble {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #a0d0f0;
+  background-image: url('/images/b.png');
+  background-repeat: no-repeat;
+  -moz-border-radius:    250px;
+  -webkit-border-radius: 250px;
+  border-radius:         250px;
+}
+
+.like {
+  text-align: center;
+}
+
+.little_like {
+  float: right;
+}
+
+.anchor, .reply, .pagination {
+  background: #adf;
+  color: #a8f;
+  border-color: #C6D880;
+  padding: .8em;
+  margin-bottom: 1em;
+  border: solid #ddf;
+}
+
+.reply {
+  text-align: center;
+  width: 52px;
+  -moz-border-radius:    40px;
+  -webkit-border-radius: 40px;
+  border-radius:         40px;
+}
+
+.anchor {
+  padding: .3em;
+  font-size: 250%;
+  text-align: center;
+  width: 40px;
+  -moz-border-radius:    150px;
+  -webkit-border-radius: 150px;
+  border-radius:         150px;
+}
+
+.pagination {
+  float: right;
+  color: #555;
+  font-size: 90%;
+  width: 200px;
+  margin-bottom: 2em;
+  -moz-border-radius:    40px;
+  -webkit-border-radius: 40px;
+  border-radius:         40px;
+}
+
+.pic {
+  padding-top: 1em;
+}
+
+.title {
+  font-size: 140%;
+}
+
+.timestamp {
+  font-size: 80%;
+}
+
+.comment {
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+div.hr {
+  color: #bad;
+  background-color: #bad;
+  height: 2px;
+}
+
+div.hr hr {
+  display: none;
+}
+
+table.bigups tr td.bigup {
+  text-align: center;
+  padding-top: 6px;
+  display: block;
+  vertical-align: top;
+}
+
+td.bigup .comment {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 80px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+form textarea {
+  height: 4em;
+  margin-bottom: 0;
+}
+
+div.flash {
+  font-size: 200%;
+  text-align: center;
+  width: 200px;
+  -moz-border-radius:    40px;
+  -webkit-border-radius: 40px;
+  border-radius:         40px;
+}
+
+div.abbreviator {
+  text-align: center;
+  font-size: 400%;
+}

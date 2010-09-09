@@ -1,0 +1,18 @@
+<div class="bubble">
+  <a name="<%= spool.id %>"></a>
+  <a href="http://www.youtube.com/watch?v=kF8kDg8EpOc" class="anchor">THE MONAD</a>
+
+  <% if spool.bigups.length <= 3 %>
+    <%= render spool.bigups %>
+  <% else %>
+    <%= render spool.bigups.first %>
+    <div class="abbreviator">...</div>
+    <%= render spool.bigups.find(:last, :offset => 1) %>
+    <%= render spool.bigups.last %>
+  <% end %>
+
+  <div class="like"><%= facebook_like "#{CGI::escape(request.url)}spools/#{spool.id}" %></div>
+  <div class="reply">
+    <%= link_to "reply", spool_path(spool, :anchor => "reply") %>
+  </div>
+</div>

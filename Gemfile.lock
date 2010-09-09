@@ -29,6 +29,7 @@ GEM
       activemodel (= 3.0.0)
       activesupport (= 3.0.0)
     activesupport (3.0.0)
+    annotate-models (1.0.4)
     arel (1.0.1)
       activesupport (~> 3.0.0)
     aws-s3 (0.6.2)
@@ -72,7 +73,7 @@ GEM
     treetop (1.4.8)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
-    will_paginate (2.3.14)
+    will_paginate (3.0.pre2)
     xml-simple (1.0.12)
 
 PLATFORMS
@@ -80,8 +81,9 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth
+  annotate-models
   aws-s3
   paperclip
   rails (= 3.0.0)
   sqlite3-ruby
-  will_paginate
+  will_paginate (>= 3.0pre2)

@@ -1,0 +1,7 @@
+<div class="bubble">
+  <% unless @spool.bigups.empty? %>
+    <%= render @bigups %>
+  <% end %>
+  <div class="like"><%= facebook_like "#{CGI::escape(request.url)}" %></div>
+  <%= render 'bigups/form' %>
+</div>

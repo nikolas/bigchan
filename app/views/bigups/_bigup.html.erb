@@ -1,0 +1,25 @@
+<table class="bigups">
+<tr>
+  <td class="bigup">
+    <% if bigup.pic.file? %>
+      <div class="pic">
+        <% link_to(bigup.pic.url) do %>
+          <%= image_tag bigup.pic.url(:large) %>
+        <% end %>
+      </div>
+    <% end %>
+    <div class="title">
+      <%= link_to "&hearts;", [Spool.find(bigup.spool_id), bigup] %>
+      <%= display bigup.title %>
+    </div>
+    <div class="name"><%= display bigup.name %></div>
+    <% unless bigup.content.empty? %>
+      <div class="comment"><%= bigup.content %></div>
+    <% end %>
+    <div class="timestamp">
+      <%= time_ago_in_words(bigup.created_at) %> ago.
+    </div>
+    <div class="little_like"><%= facebook_little_like "#{CGI::escape(request.host)}#{spool_bigup_path(Spool.find(bigup.spool_id), bigup)}" %></div>
+  </td>
+</tr>
+</table>

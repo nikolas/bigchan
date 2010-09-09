@@ -1,0 +1,21 @@
+<a name="reply"></a>
+<%= form_for [@spool, @bigup], :html => {:multipart => true} do |b| %>
+  <%= b.error_messages %>
+  <p>
+    title
+    <%= b.text_field :title %>
+  </p>
+  <p>
+    name
+    <%= b.text_field :name %>
+  </p>
+  <p>
+    comment
+    <%= b.text_area :content %>
+  </p>
+  <p>
+    jpg, gif, png, or bmp. &lt;5MB.
+    <%= b.file_field :pic %>
+  </p>
+  <p><%= b.submit "reply" %></p>
+<% end %>
