@@ -57,6 +57,9 @@ class Bigup < ActiveRecord::Base
       # Replace groups of spaces with single hyphen
       s.gsub!(/\ +/, '-')
 
+      # Prepend timestamp for a unique filename
+      s = Time.now.strftime("%d-%m-%Y_%H-%M-%S_").to_s + s
+
       return s
     end
 
