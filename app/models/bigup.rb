@@ -38,7 +38,11 @@ class Bigup < ActiveRecord::Base
     def transliterate_file_name
       extension = File.extname(pic_file_name).gsub(/^\.+/, '')
       filename = pic_file_name.gsub(/\.#{extension}$/, '')
-      self.pic.instance_write(:file_name, "#{transliterate(filename)}.#{transliterate(extension)}")
+
+      # Prepend timestamp for a unique filename
+      time = Time.now.strftime("%d-%m-%Y_%H-%M-%S_").to_s
+
+      self.pic.instance_write(:file_name, "#{time}#{transliterate(filename)}.#{transliterate(extension)}")
     end 
 
     def transliterate(str)
@@ -56,9 +60,6 @@ class Bigup < ActiveRecord::Base
       s.strip!
       # Replace groups of spaces with single hyphen
       s.gsub!(/\ +/, '-')
-
-      # Prepend timestamp for a unique filename
-      s = Time.now.strftime("%d-%m-%Y_%H-%M-%S_").to_s + s
 
       return s
     end
