@@ -2,9 +2,9 @@ How to make your own Bigchan
 ===========================================
 Bigchan is an imageboard from the future of the Internet.
 
-Do you want to put pictures on the Internet? Have conversations with friends online? Put pictures online and show them to people? If you use Facebook you probably don't need to bigchan.
+Do you want to put pictures on the Internet? Have conversations with friends online? Put pictures online and show them to people? If you use Facebook you probably don't need bigchan.
 
-But if you don't use Facebook, bigchan is a great alternative.
+But if you don't use Facebook, you might want to use bigchan instead.
 
 ### Really doing it
 Get Bigchan:
