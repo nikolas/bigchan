@@ -1,6 +1,6 @@
 How to make your own Bigchan
 ===========================================
-Bigchan is an imageboard from the future of the Internet.
+Bigchan is an imageboard from a future
 
 Do you want to put pictures on the Internet? Have conversations with friends online? Put pictures online and show them to people? If you use Facebook you probably don't need bigchan.
 
@@ -22,7 +22,7 @@ Bigchan is aware of three [environment variables](http://en.wikipedia.org/wiki/E
 
 (Replace "bigchan" with whatever you called your instance)
 
-Heroku is tested with Ruby 1.9.2 on Rails 3.0.0. Tell Heroku to use the right version of Ruby:
+Bigchan is tested with Ruby 1.9.2 on Rails 3.0.0. Tell Heroku to use the right version of Ruby:
 `heroku stack:migrate bamboo-mri-1.9.2 --app bigchan`
 
 Now you need to send your bigchan instance over to Heroku so they can have a slug compiled for you.
