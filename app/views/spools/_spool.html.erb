@@ -6,7 +6,7 @@
     <%= render spool.bigups %>
   <% else %>
     <%= render spool.bigups.first %>
-    <div class="abbreviator">...</div>
+    <div class="abbreviator"><%= link_to '...', spool %></div>
     <%= render spool.bigups.find(:last, :offset => 1) %>
     <%= render spool.bigups.last %>
   <% end %>
