@@ -1,9 +1,14 @@
 class BigupsController < ApplicationController
   def create
-    spool = Spool.find(params[:spool_id])
-    @bigup = spool.bigups.build(params[:bigup])
+    @spool = Spool.find(params[:spool_id])
+    @bigup = @spool.bigups.build(params[:bigup])
     if @bigup.save
-      flash[:success] = "thread bumped!"
+      @spool.updated_at = Time.now
+      if @spool.save
+        flash[:success] = "thread bumped!"
+      else
+        flash_error
+      end
     else
       flash_error
     end

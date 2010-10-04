@@ -1,5 +1,5 @@
 class Bigup < ActiveRecord::Base
-  belongs_to :spool, :touch => true
+  belongs_to :spool
 
   attr_accessible :name, :title, :content, :pic
   acts_as_textiled :content
