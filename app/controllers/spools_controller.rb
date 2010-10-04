@@ -26,11 +26,10 @@ class SpoolsController < ApplicationController
     @spool = Spool.new(params[:spool])
     if @spool.save
       flash[:success] = "thread posted"
-      redirect_to root_path
     else
-      flash[:error] = "there was something wrong with your image"
-      redirect_to root_path
+      flash_error
     end
+    redirect_to root_path
   end
 
 end

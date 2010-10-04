@@ -4,11 +4,28 @@ class BigupsController < ApplicationController
     @bigup = spool.bigups.build(params[:bigup])
     if @bigup.save
       flash[:success] = "thread bumped!"
-      redirect_to root_path
     else
-      flash[:error] = "there must be something wrong with this rails app&hearts;,, ;"
-      redirect_to root_path
+      flash_error
     end
+    redirect_to root_path
+  end
+
+  def destroy
+    @bigup = Bigup.find(params[:id])
+    @spool = Spool.find(@bigup.spool_id)
+
+    if @spool.bigups.count <= 1
+      if @spool.destroy
+        flash[:success] = "thread removed"
+      else
+        flash_error
+      end
+    elsif @bigup.destroy
+      flash[:success] = "post removed"
+    else
+      flash_error
+    end
+    redirect_to root_path
   end
 
   def show

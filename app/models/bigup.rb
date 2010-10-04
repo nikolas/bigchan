@@ -1,22 +1,6 @@
-# == Schema Information
-# Schema version: 20100801002255
-#
-# Table name: bigups
-#
-#  id               :integer         not null, primary key
-#  name             :string(255)
-#  title            :string(255)
-#  content          :text
-#  created_at       :datetime
-#  updated_at       :datetime
-#  pic_file_name    :string(255)
-#  pic_content_type :string(255)
-#  pic_file_size    :integer
-#  pic_updated_at   :datetime
-#  spool_id         :integer
-#
-
 class Bigup < ActiveRecord::Base
+  belongs_to :spool, :touch => true
+
   attr_accessible :name, :title, :content, :pic
   acts_as_textiled :content
 
@@ -31,8 +15,6 @@ class Bigup < ActiveRecord::Base
       :path => "/:style/:filename"
 
   before_post_process :transliterate_file_name
-
-  belongs_to :spool, :touch => true
 
   private
     def transliterate_file_name

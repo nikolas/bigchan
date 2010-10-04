@@ -3,7 +3,7 @@
   <td class="bigup">
     <% if bigup.pic.file? %>
       <div class="pic">
-        <% link_to(bigup.pic.url) do %>
+        <%= link_to(bigup.pic.url) do %>
           <%= image_tag bigup.pic.url(:large) %>
         <% end %>
       </div>
@@ -19,7 +19,15 @@
     <div class="timestamp">
       <%= time_ago_in_words(bigup.created_at) %> ago.
     </div>
-    <div class="little_like"><%= facebook_little_like "#{CGI::escape(request.host)}#{spool_bigup_path(Spool.find(bigup.spool_id), bigup)}" %></div>
+    <div class="bigup_controls">
+      <%= link_to image_tag("ThumbsDown.jpg"),
+          [Spool.find(bigup.spool_id), bigup],
+          :title => "Delete post",
+          :method => :delete,
+          :confirm => "Really remove this post?"
+      %>
+      <%= facebook_little_like "#{CGI::escape(request.host)}#{spool_bigup_path(Spool.find(bigup.spool_id), bigup)}" %>
+    </div>
   </td>
 </tr>
 </table>

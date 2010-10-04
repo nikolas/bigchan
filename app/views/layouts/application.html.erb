@@ -5,9 +5,12 @@
   <%= render 'layouts/stylesheets' %>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
   <%= render 'layouts/ga' %>
 
-  <%= csrf_meta_tag %> -->
+  <%= javascript_include_tag :defaults %>
+
+  <%= csrf_meta_tag %>
 </head>
 <body>
 <audio src="sadness.ogg" autoplay="yes"></audio>
