@@ -10,7 +10,3 @@ gem 'aws-s3', :require => 'aws/s3'
 gem 'will_paginate', '>=3.0pre2'
 gem 'paperclip'
 gem 'RedCloth'
-
-group :development, :test do
-  gem 'annotate-models'
-end

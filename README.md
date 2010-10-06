@@ -1,12 +1,14 @@
-How to make your own Bigchan
+Explanation
 ===========================================
+
 Bigchan is an imageboard from a future
 
 Do you want to put pictures on the Internet? Have conversations with friends online? Put pictures online and show them to people? If you use Facebook you probably don't need bigchan.
 
 But if you don't use Facebook, you might want to use bigchan instead.
 
-### Really doing it
+How to make your own Bigchan
+===========================================
 Get Bigchan:
 `git clone git://github.com/nikolas/bigchan.git`
 
@@ -32,4 +34,4 @@ And make the database:
 `heroku rake db:migrate`
 
 
-If it doesn't work then send me an email :P
+If it doesn't work, then send me an email.
