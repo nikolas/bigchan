@@ -25,12 +25,14 @@ class BigupsController < ApplicationController
       else
         flash_error
       end
+
     elsif @bigup.destroy
       flash[:success] = "post removed"
     else
       flash_error
     end
-    redirect_to root_path
+
+    redirect_to request.env['HTTP_REFERER']
   end
 
   def show
