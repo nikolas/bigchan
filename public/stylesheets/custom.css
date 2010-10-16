@@ -15,7 +15,7 @@ h1 {
   background: blue;
   background-image: url('/images/b.png');
   background-repeat: no-repeat;
-  font-size: 3em;
+  font-size: 0.3em;
   text-align: center;
 }
 

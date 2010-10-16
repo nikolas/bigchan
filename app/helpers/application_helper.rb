@@ -1,6 +1,6 @@
 module ApplicationHelper
   def title
-    base_title = "bigchan&hearts;"
+    base_title = "&#x2587;&#x2586;&#x2588;&harts;&#x2588;&#x2586;&#x2587;&#x2588;&#x2588;&#x2588;&#x2588;"
     if @title.nil?
       base_title
     else
