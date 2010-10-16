@@ -14,9 +14,16 @@
 </head>
 <body>
 
-  <center>
+  <div id="header_bubble">
     <h1><%= link_to "bigchan", root_path %></h1>
-  </center>
+    <h2>
+      <%= image_tag("ThumbsDown.jpg", :size => "512x512") %>
+      Do not use this bu
+      For full functionality of this site it is necessary to enable JavaScript.
+      Here are the <a href="http://www.enable-javascript.com/" target="_blank">
+      instructions how to enable JavaScript in your web browser</a>.
+    </h2>
+  </div>
 
   <div class="container">
     <% flash.each do |key, value| %>

@@ -12,9 +12,11 @@ h1 {
 }
 
 #header_bubble {
-  -moz-border-radius:    40px;
-  -webkit-border-radius: 40px;
-  border-radius:         40px;
+  background: blue;
+  background-image: url('/images/b.png');
+  background-repeat: no-repeat;
+  font-size: 3em;
+  text-align: center;
 }
 
 .b {
@@ -120,10 +122,12 @@ table.bigups tr td.bigup {
   vertical-align: top;
 }
 
-td.bigup .comment {
+.comment {
   text-align: left;
   padding-left: 100px;
   padding-right: 80px;
+  font-family: serif;
+  font-size: 2em;
 }
 
 form {
