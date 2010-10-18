@@ -1,12 +1,3 @@
-Explanation
-===========================================
-
-Bigchan is an imageboard from a future
-
-Do you want to put pictures on the Internet? Have conversations with friends online? Put pictures online and show them to people? If you use Facebook you probably don't need bigchan.
-
-But if you don't use Facebook, you might want to use bigchan instead.
-
 How to make your own Bigchan
 ===========================================
 Get Bigchan:
