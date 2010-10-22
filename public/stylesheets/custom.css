@@ -5,6 +5,7 @@ a {
 
 body {
   background-image: url("/images/florvine.jpg");
+  cursor: url("/images/cursor.cur"), auto;
 }
 
 h1 {
