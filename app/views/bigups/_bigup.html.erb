@@ -2,7 +2,7 @@
 <tr>
   <td class="bigup">
     <% if bigup.pic.file? %>
-      <div class="pic">
+      <div class="pic" style="background-image:url(<%= bigup.pic.url(:large) %>)">
         <%= link_to(bigup.pic.url) do %>
           <%= image_tag bigup.pic.url(:large) %>
         <% end %>
