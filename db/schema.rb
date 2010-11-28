@@ -13,21 +13,21 @@
 ActiveRecord::Schema.define(:version => 20100801002255) do
 
   create_table "bigups", :force => true do |t|
-    t.string   "name"
-    t.string   "title"
-    t.text     "content"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "pic_file_name"
-    t.string   "pic_content_type"
-    t.integer  "pic_file_size"
-    t.datetime "pic_updated_at"
-    t.integer  "spool_id"
+    t.string    "name"
+    t.string    "title"
+    t.text      "content"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
+    t.string    "pic_file_name"
+    t.string    "pic_content_type"
+    t.integer   "pic_file_size"
+    t.timestamp "pic_updated_at"
+    t.integer   "spool_id"
   end
 
   create_table "spools", :force => true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
 end
