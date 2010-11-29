@@ -159,3 +159,10 @@ div.abbreviator {
   text-align: center;
   font-size: 400%;
 }
+
+img#thumbs_down:hover {
+  background-color: red;
+  -moz-border-radius:    100px;
+  -webkit-border-radius: 100px;
+  border-radius:         100px;
+}
