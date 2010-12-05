@@ -166,3 +166,16 @@ img#thumbs_down:hover {
   -webkit-border-radius: 100px;
   border-radius:         100px;
 }
+
+.field {
+  display: block;
+}
+
+.field input[type=submit] {
+  font-size: 2em;
+  margin: 1em;
+  padding: 0.5em;
+  -moz-border-radius:    40px;
+  -webkit-border-radius: 40px;
+  border-radius:         40px;
+}

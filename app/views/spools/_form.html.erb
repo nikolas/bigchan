@@ -4,23 +4,26 @@
     <%= form_for @new_spool, :html => {:multipart => true} do |f| %>
       <%= f.fields_for :bigups do |b| %>
         <%= b.error_messages %>
-        <p>
-          title
+          <div class="field">
+          <%= b.label :title %>
           <%= b.text_field :title %>
-        </p>
-        <p>
-          name
+          </div>
+          <div class="field">
+          <%= b.label :name %>
           <%= b.text_field :name %>
-        </p>
-        <p>
-          comment
+          </div>
+          <div class="field">
+          <%= b.label(:content, "Comment") %>
           <%= b.text_area :content %>
-        </p>
-        <p>
+          </div>
+          <div class="field">
+          <%= b.label :pic %>
           <%= b.file_field :pic %>
-        </p>
+          </div>
       <% end %>
-      <p><%= f.submit "post" %></p>
+      <div class="field">
+      <%= f.submit "post" %>
+      </div>
     <% end %>
   </div>
 </div>
