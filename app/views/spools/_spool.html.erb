@@ -11,8 +11,8 @@
     <%= render spool.bigups.last %>
   <% end %>
 
-  <div class="like"><%= facebook_like "#{CGI::escape(request.url)}spools/#{spool.id}" %></div>
+  <div class="like"><%= facebook_like "#{CGI::escape(request.url)}#{spool.id}" %></div>
   <div class="reply">
-    <%= link_to "reply", spool_path(spool, :anchor => "reply") %>
+    <%= link_to 'reply', spool_path("#{spool.id}", :anchor => "reply") %>
   </div>
 </div>
