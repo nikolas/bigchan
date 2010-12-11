@@ -13,6 +13,6 @@
 
   <div class="like"><%= facebook_like "#{CGI::escape(request.url)}#{spool.id}" %></div>
   <div class="reply">
-    <%= link_to 'reply', spool_path("#{spool.id}", :anchor => "reply") %>
+    <%= link_to 'reply', "#{spool.id}#reply" %>
   </div>
 </div>
