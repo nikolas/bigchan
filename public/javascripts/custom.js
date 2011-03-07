@@ -1,5 +1,6 @@
 $(document).ready( function() {
 	$('#spool_form').draggable ({
+		scroll: false,
 		start: function(event, ui) {
 			ui.helper.addClass('being_dragged');
 		},
