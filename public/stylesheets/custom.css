@@ -171,9 +171,6 @@ form textarea {
 	width: 200px;
 }
 
-#spool_form.being_dragged form {
-}
-
 .floating {
 	border: 1px solid red;
 }
