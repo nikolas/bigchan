@@ -176,12 +176,7 @@ form textarea {
 }
 
 div.flash {
-	font-size: 200%;
-	text-align: center;
-	width: 200px;
-	-moz-border-radius:    40px;
-	-webkit-border-radius: 40px;
-	border-radius:         40px;
+	display: none;
 }
 
 div.abbreviator {
