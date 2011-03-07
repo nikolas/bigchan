@@ -4,14 +4,15 @@ class Bigup < ActiveRecord::Base
   attr_accessible :name, :title, :content, :pic
   acts_as_textiled :content
 
-  has_attached_file :pic,
-      :storage => :s3,
-      :s3_credentials => {
-        :access_key_id => ENV['S3_KEY'],
-        :secret_access_key => ENV['S3_SECRET']
-      },
-      :bucket => ENV['S3_BUCKET'],
-      :path => "/:style/:filename"
+	has_attached_file :pic,
+		:styles => { :large => "640x480>" },
+		:storage => :s3,
+		:s3_credentials => {
+			:access_key_id => ENV['S3_KEY'],
+			:secret_access_key => ENV['S3_SECRET']
+		},
+		:bucket => ENV['S3_BUCKET'],
+		:path => "/:style/:filename"
 
   before_post_process :transliterate_file_name
 

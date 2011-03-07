@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= raw(title) %></title>
-  <%= render 'layouts/stylesheets' %>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<title><%= raw(title) %></title>
+	<%= render 'layouts/stylesheets' %>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-  <%= render 'layouts/ga' %>
+	<%= render 'layouts/ga' %>
 
 	<%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js' %>
+	<%= javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js' %>
 	<%= javascript_include_tag 'rails' %>
+	<%= javascript_include_tag 'custom' %>
 
-  <%= csrf_meta_tag %>
+	<%= csrf_meta_tag %>
 </head>
 <body>
 
-  <div id="header_bubble">
-    <h1><%= link_to "bigchan", root_path %></h1>
-    <h2>
-      <%= image_tag("ThumbsDown.jpg", :size => "52x25") %>
-      Do not use this bu
-      For full functionality of this site it is necessary to enable JavaScript.
-      Here are the <a href="http://www.enable-javascript.com/" target="_blank">
-      instructions how to enable JavaScript in your web browser</a>.
-    </h2>
-  </div>
+	<div id="header_bubble">
+		<h1><%= link_to "bigchan", root_path %></h1>
+	</div>
 
-  <% flash.each do |key, value| %>
-    <%= content_tag(:div, value, :class => "flash #{key}") %>
-  <% end %>
-  <%= yield %>
-  <%= debug(params) if Rails.env.development? %>
+	<% flash.each do |key, value| %>
+		<%= content_tag(:div, value, :class => "flash #{key}") %>
+	<% end %>
+
+	<div id="dragging_area">
+		<%= yield %>
+	</div>
+
+	<%= debug(params) if Rails.env.development? %>
 
 </body>
 </html>

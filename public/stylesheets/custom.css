@@ -14,16 +14,10 @@ body {
   cursor: url("/images/cursor.cur"), auto;
 }
 
-h1 {
-  text-align: center;
-}
-
 #header_bubble {
-  background: blue;
-  background-image: url('/images/b.png');
-  background-repeat: no-repeat;
-  font-size: 0.3em;
-  text-align: center;
+	background: #b0a0ff;
+	background-image: url('/images/b.png');
+	background-repeat: no-repeat;
 }
 
 .b {
@@ -146,13 +140,51 @@ form textarea {
   margin-bottom: 0;
 }
 
-div.flash {
-  font-size: 200%;
-  text-align: center;
-  width: 200px;
+.field {
+  display: block;
+}
+
+.field input[type=submit] {
+  font-size: 2em;
+  margin-top: 1em;
   -moz-border-radius:    40px;
   -webkit-border-radius: 40px;
   border-radius:         40px;
+}
+
+#spool_form form {
+	cursor: pointer;
+	width: 400px;
+	float: right;
+	padding: 1em;
+	font-size: 120%;
+	background: #b0a0ff;
+	-moz-border-radius: 250px;
+	-webkit-border-radius: 250px;
+	border-radius: 250px;
+	box-shadow: 5px 5px 20px #000;
+	-moz-box-shadow: 5px 5px 20px #000;
+	-webkit-box-shadow: 5px 5px 20px #000;
+}
+
+#spool_form textarea {
+	width: 200px;
+}
+
+#spool_form.being_dragged form {
+}
+
+.floating {
+	border: 1px solid red;
+}
+
+div.flash {
+	font-size: 200%;
+	text-align: center;
+	width: 200px;
+	-moz-border-radius:    40px;
+	-webkit-border-radius: 40px;
+	border-radius:         40px;
 }
 
 div.abbreviator {
@@ -165,17 +197,4 @@ img#thumbs_down:hover {
   -moz-border-radius:    100px;
   -webkit-border-radius: 100px;
   border-radius:         100px;
-}
-
-.field {
-  display: block;
-}
-
-.field input[type=submit] {
-  font-size: 2em;
-  margin: 1em;
-  padding: 0.5em;
-  -moz-border-radius:    40px;
-  -webkit-border-radius: 40px;
-  border-radius:         40px;
 }
