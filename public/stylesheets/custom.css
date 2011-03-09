@@ -152,13 +152,12 @@ form textarea {
   border-radius:         40px;
 }
 
-#spool_form form {
+#spool_form {
+	z-index: 2;
+}
+
+#spool_form form, .floating {
 	cursor: move;
-	width: 400px;
-	float: right;
-	padding: 1em;
-	font-size: 120%;
-	background: #b0a0ff;
 	-moz-border-radius: 250px;
 	-webkit-border-radius: 250px;
 	border-radius: 250px;
@@ -167,12 +166,16 @@ form textarea {
 	-webkit-box-shadow: 5px 5px 20px #000;
 }
 
-#spool_form textarea {
-	width: 200px;
+#spool_form form {
+	width: 400px;
+	float: right;
+	padding: 1em;
+	font-size: 120%;
+	background: #b0a0ff;
 }
 
-.floating {
-	border: 1px solid red;
+#spool_form textarea {
+	width: 200px;
 }
 
 div.flash {
