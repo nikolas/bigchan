@@ -89,7 +89,8 @@ body {
 }
 
 .pic {
-  text-align: left;
+	text-align: left;
+	background-repeat: repeat-x;
 }
 
 .title {
