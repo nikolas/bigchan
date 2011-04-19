@@ -9,11 +9,11 @@ class SpoolsController < ApplicationController
     @spool = Spool.find(params[:id])
 
     if !(@spool.bigups.first.title.blank?)
-      @title = CGI.escapeHTML(@spool.bigups.first.title)
+      @title = Sanitize.clean(@spool.bigups.first.title)
     elsif !(@spool.bigups.first.content.blank?)
-      @title = CGI.escapeHTML(@spool.bigups.first.content)
+      @title = Sanitize.clean(@spool.bigups.first.content)
     elsif !(@spool.bigups.first.name.blank?)
-      @title = "comment #{@spool.bigups.first.id} by #{CGI.escapeHTML(@spool.bigups.first.name)}"
+      @title = "comment #{@spool.bigups.first.id} by #{Sanitize.clean(@spool.bigups.first.name)}"
     else
       @title = "untitled"
     end

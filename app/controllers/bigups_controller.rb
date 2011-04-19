@@ -39,11 +39,11 @@ class BigupsController < ApplicationController
     @bigup = Bigup.find(params[:id])
 
     if !(@bigup.title.blank?)
-      @title = CGI.escapeHTML(@bigup.title)
+      @title = Sanitize.clean(@bigup.title)
     elsif !(@bigup.content.blank?)
-      @title = CGI.escapeHTML(@bigup.content)
+      @title = Sanitize.clean(@bigup.content)
     elsif !(@bigup.name.blank?)
-      @title = "comment #{@bigup.id} by #{CGI.escapeHTML(@bigup.name)}"
+      @title = "comment #{@bigup.id} by #{Sanitize.clean(@bigup.name)}"
     else
       @title = "untitled"
     end
