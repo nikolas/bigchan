@@ -21,6 +21,14 @@ img:hover {
 	border: dashed 1px #000;
 }
 
+input#spool_submit:hover {
+	border: dashed 2px #000;
+}
+
+input[type=file]:hover {
+	border: none;
+}
+
 #header_bubble {
 	background: #b0a0ff;
 	background-image: url('/images/b.png');
