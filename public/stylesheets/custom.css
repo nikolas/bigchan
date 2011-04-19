@@ -14,6 +14,13 @@ body {
   cursor: url("/images/cursor.cur"), auto;
 }
 
+a:hover,
+input:hover,
+textarea:hover,
+img:hover {
+	border: dashed 1px #000;
+}
+
 #header_bubble {
 	background: #b0a0ff;
 	background-image: url('/images/b.png');
