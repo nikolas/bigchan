@@ -1,3 +1,5 @@
+require 'iconv'
+
 class Bigup < ActiveRecord::Base
   belongs_to :spool
 
