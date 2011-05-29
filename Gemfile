@@ -18,6 +18,7 @@ gem 'rails_autolink'
 
 group :production do
 	gem 'therubyracer-heroku', '0.8.1.pre3'
+	gem 'pg'
 end
 
 gem 'sqlite3-ruby', :group => :development
