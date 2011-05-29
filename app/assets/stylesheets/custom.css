@@ -14,10 +14,8 @@ body {
   cursor: url("/assets/cursor.cur"), auto;
 }
 
-a:hover,
 input:hover,
-textarea:hover,
-img:hover {
+textarea:hover {
 	border: dashed 1px #000;
 }
 
