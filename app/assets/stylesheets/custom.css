@@ -9,9 +9,9 @@ body * {
 }
 
 body {
-  background-image: url("/images/florvine.jpg");
+  background-image: url("/assets/florvine.jpg");
   color: #706090;
-  cursor: url("/images/cursor.cur"), auto;
+  cursor: url("/assets/cursor.cur"), auto;
 }
 
 a:hover,
@@ -31,7 +31,7 @@ input[type=file]:hover {
 
 #header_bubble {
 	background: #b0a0ff;
-	background-image: url('/images/b.png');
+	background-image: url('/assets/b.png');
 	background-repeat: no-repeat;
 }
 
@@ -50,7 +50,7 @@ input[type=file]:hover {
   padding: 0;
   font-size: 120%;
   background: #a0d0f0;
-  background-image: url('/images/b.png');
+  background-image: url('/assets/b.png');
   background-repeat: no-repeat;
   -moz-border-radius:    250px;
   -webkit-border-radius: 250px;

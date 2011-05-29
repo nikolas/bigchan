@@ -1,3 +1,5 @@
+require 'rails_autolink'
+
 module BigupsHelper
   def display(content)
     auto_link(sanitize(content))
