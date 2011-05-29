@@ -21,4 +21,5 @@ group :production do
 	gem 'pg'
 end
 
+gem 'therubyracer-heroku', '0.8.1.pre3'
 gem 'sqlite3-ruby', :group => :development

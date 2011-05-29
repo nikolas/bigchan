@@ -1,6 +1,6 @@
 class SpoolsController < ApplicationController
   def index
-    @spools = Spool.paginate(:page => params[:page])
+    @spools = Spool.all.paginate(:page => params[:page])
     @new_spool = Spool.new
     @new_spool.bigups.build
   end
