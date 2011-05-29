@@ -11,7 +11,7 @@ gem 'jquery-rails'
 
 gem 'aws-s3', :require => 'aws/s3'
 gem 'will_paginate', :git => 'https://github.com/wantful/will_paginate.git'
-gem 'paperclip'
+gem 'paperclip', :git => 'git://github.com/mcfiredrill/paperclip.git'
 gem 'RedCloth'
 gem 'sanitize'
 gem 'rails_autolink'
