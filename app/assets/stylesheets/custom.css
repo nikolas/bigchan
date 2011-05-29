@@ -33,6 +33,12 @@ input[type=file]:hover {
 	background: #b0a0ff;
 	background-image: url('/assets/b.png');
 	background-repeat: no-repeat;
+	float: left;
+	width: 100%;
+}
+
+#header_bubble h1 a {
+	color: #82e;
 }
 
 .b {

@@ -15,8 +15,11 @@
 <body>
 
 	<div id="header_bubble">
-		<h1><%= link_to "bigchan", root_path %></h1>
+		<h1 style="float:left;"><%= link_to "bigchan", root_path %></h1>
+		<h1 style="float:right;"><a href="http://fortchan.org/">fortchan</a></h1>
 	</div>
+
+	<div style="clear:both;"></div>
 
 	<% flash.each do |key, value| %>
 		<%= content_tag(:div, value, :class => "flash #{key}") %>
