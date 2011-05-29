@@ -10,7 +10,7 @@ gem 'uglifier'
 gem 'jquery-rails'
 
 gem 'aws-s3', :require => 'aws/s3'
-gem 'will_paginate', '>=3.0pre2'
+gem 'will_paginate', :git => 'https://github.com/wantful/will_paginate.git'
 gem 'paperclip'
 gem 'RedCloth'
 gem 'sanitize'

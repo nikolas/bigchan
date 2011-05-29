@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/wantful/will_paginate.git
+  revision: e1676b5cec9e50e208fc2806b8c78ed1c8824275
+  specs:
+    will_paginate (2.3.15)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -109,7 +115,6 @@ GEM
     uglifier (0.5.4)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
-    will_paginate (3.0.pre2)
     xml-simple (1.0.16)
 
 PLATFORMS
@@ -130,4 +135,4 @@ DEPENDENCIES
   sqlite3-ruby
   therubyracer-heroku (= 0.8.1.pre3)
   uglifier
-  will_paginate (>= 3.0pre2)
+  will_paginate!
