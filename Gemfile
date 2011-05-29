@@ -2,11 +2,11 @@ source :gemcutter
 
 gem 'rails', '3.1.0.rc1'
 
-# Rails 3.1
-gem 'json'
+# Asset template engines
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
+
 gem 'jquery-rails'
 
 gem 'aws-s3', :require => 'aws/s3'
