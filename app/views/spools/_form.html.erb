@@ -3,25 +3,21 @@
 		<%= f.fields_for :bigups do |b| %>
 			<%= b.error_messages %>
 			<div class="field">
-			<%= b.label :title %>
-			<%= b.text_field :title %>
+				<%= b.text_field :title %>
 			</div>
 			<div class="field">
-			<%= b.label :name %>
-			<%= b.text_field :name %>
+				<%= b.text_field :name %>
 			</div>
 			<div class="field">
-			<%= b.label(:content, "Comment") %>
-			<%= b.text_area :content %>
+				<%= b.text_area :content %>
 			</div>
 			<div class="field">
-			<%= b.label :pic %>
-			<%= b.file_field :pic %>
+				<%= b.file_field :pic %>
 			</div>
 		<% end %>
 		<div class="mover"><%= image_tag('tool_s.png', :class => 'tool', :title => 'Move') %></div>
 		<div class="field">
-		<%= f.submit "post" %>
+			<%= f.submit "post" %>
 		</div>
 	<% end %>
 </div>
