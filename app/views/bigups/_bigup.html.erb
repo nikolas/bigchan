@@ -1,6 +1,5 @@
-<table class="bigups">
-<tr>
-	<td class="bigup">
+<div class="bigups">
+	<div class="bigup">
 		<% if bigup.pic.file? %>
 			<div class="pic" style="background-image:url(<%= bigup.pic.url(:large) %>)">
 				<%= link_to(bigup.pic.url) do %>
@@ -12,9 +11,9 @@
 			<%= link_to raw("&hearts;"), "/#{Spool.find(bigup.spool_id).id}/#{bigup.id}" %>
 			<%= display bigup.title %>
 		</div>
-	<div class="name">
-		<%= display bigup.name %>
-	</div>
+		<div class="name">
+			<%= display bigup.name %>
+		</div>
 		<% unless bigup.content.empty? %>
 			<div class="comment"><%= raw(bigup.content) %></div>
 		<% end %>
@@ -30,6 +29,5 @@
 			%>
 			<%= facebook_little_like "#{CGI::escape(request.host)}/#{Spool.find(bigup.spool_id).id}/#{bigup.id}" %>
 		</div>
-	</td>
-</tr>
-</table>
+	</div>
+</div>

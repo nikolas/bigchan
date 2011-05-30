@@ -63,6 +63,12 @@ img.tool {
   -moz-border-radius:    250px;
   -webkit-border-radius: 250px;
   border-radius:         250px;
+	width: 800px;
+}
+
+.bubble .comment p {
+	max-width: 600px;
+	overflow: hidden;
 }
 
 .like {
@@ -128,6 +134,8 @@ img.tool {
 .comment {
   margin-right: 5em;
   margin-left: 5em;
+  text-align: left;
+  font-size: 2em;
 }
 
 div.hr {
@@ -140,18 +148,11 @@ div.hr hr {
   display: none;
 }
 
-table.bigups tr td.bigup {
+.bigups .bigup {
   text-align: center;
   padding-top: 6px;
   display: block;
   vertical-align: top;
-}
-
-.comment {
-  text-align: left;
-  padding-left: 100px;
-  padding-right: 80px;
-  font-size: 2em;
 }
 
 form {
