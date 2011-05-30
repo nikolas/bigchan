@@ -15,7 +15,8 @@
 				<%= b.file_field :pic %>
 			</div>
 		<% end %>
-		<div class="mover"><%= image_tag('tool_s.png', :class => 'tool', :title => 'Move') %></div>
+		<span class="mover"><%= image_tag('tool_s.png', :class => 'tool', :title => 'Move') %></span>
+		<span class="listener"><a href="javascript:play(92775,0,0,0);" title="Listen"><%= image_tag('jukebox.png') %></a></span>
 		<div class="field">
 			<%= f.submit "post" %>
 		</div>
