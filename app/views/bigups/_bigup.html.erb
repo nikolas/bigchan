@@ -27,7 +27,7 @@
 					:method => :delete,
 					:confirm => "Really remove this post?"
 			%>
-			<%= facebook_little_like "#{CGI::escape(request.host)}/#{Spool.find(bigup.spool_id).id}/#{bigup.id}" %>
+		<%= facebook_little_like "#{CGI::escape(request.host)}/#{Spool.find(bigup.spool_id).id}/#{bigup.id}" %>
 		</div>
 	</div>
 </div>

@@ -2,6 +2,7 @@
   <% unless @spool.bigups.empty? %>
     <%= render @bigups %>
   <% end %>
+	<div class="mover"><%= image_tag('tool.png', :class => 'tool', :title => 'Move') %></div>
   <div class="like"><%= facebook_like "#{CGI::escape(request.url)}" %></div>
   <%= render 'bigups/form' %>
 </div>
