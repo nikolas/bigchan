@@ -223,3 +223,24 @@ img#thumbs_down:hover {
   -webkit-border-radius: 100px;
   border-radius:         100px;
 }
+
+img.big_tool:hover {
+  background-image: url("/assets/red_dot.png");
+	overflow-x: visible;
+	overflow: visible;
+	width: 100px;
+}
+
+img.little_tool:hover {
+  background-image: url("/assets/red_dot.png");
+	overflow-x: visible;
+	overflow: visible;
+	width: 50px;
+}
+
+img#jukebox:hover {
+  background-image: url("/assets/red_dot.png");
+	overflow-x: visible;
+	overflow: visible;
+	width: 40px;
+}

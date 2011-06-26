@@ -1,6 +1,6 @@
 source :gemcutter
 
-gem 'rails', '3.1.0.rc1'
+gem 'rails', '3.1.0.rc4'
 
 # Asset template engines
 gem 'sass'
@@ -21,5 +21,6 @@ group :production do
 	gem 'pg'
 end
 
-gem 'therubyracer-heroku', '0.8.1.pre3'
+# duhh :S
+gem 'therubyracer-heroku', '0.8.1.pre3', :group => :development
 gem 'sqlite3-ruby', :group => :development

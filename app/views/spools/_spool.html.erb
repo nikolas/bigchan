@@ -9,7 +9,7 @@
     <%= render spool.bigups.last %>
   <% end %>
 
-	<div class="mover"><%= image_tag('tool.png', :class => 'tool', :title => 'Move') %></div>
+	<div class="mover"><%= image_tag('tool.png', :class => 'tool big_tool', :title => 'Move') %></div>
   <div class="like"><%= facebook_like "#{CGI::escape(request.url)}#{spool.id}" %></div>
   <div class="reply">
     <%= link_to 'reply', "#{spool.id}#reply" %>
