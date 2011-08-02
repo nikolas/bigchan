@@ -17,6 +17,7 @@ class Bigup < ActiveRecord::Base
 		:path => "/:style/:filename"
 
   before_post_process :transliterate_file_name
+	validate :validates_photo_or_post
 
   private
     def transliterate_file_name
@@ -42,4 +43,9 @@ class Bigup < ActiveRecord::Base
       return s
     end
 
+		def validates_photo_or_post
+			if content.blank? && pic_file_name.blank?
+				errors[:base] << "You must have text or a picture, why would you want to make a blank post? ;3"
+			end
+		end
 end
