@@ -32,8 +32,4 @@ module ApplicationHelper
         :allowtransparency => true
   end
 
-  def flash_error
-    flash[:error] = "there must be something wrong with this rails app&hearts;,, ;"
-  end
-
 end

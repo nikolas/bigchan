@@ -7,10 +7,10 @@ class BigupsController < ApplicationController
       if @spool.save
         flash[:success] = "thread bumped!"
       else
-        flash_error
+				flash[:error] = "there must be something wrong with this rails app&hearts;,, ;"
       end
     else
-      flash_error
+			flash[:error] = "there must be something wrong with this rails app&hearts;,, ;"
     end
     redirect_to root_path
   end
@@ -23,13 +23,13 @@ class BigupsController < ApplicationController
       if @spool.destroy
         flash[:success] = "thread removed"
       else
-        flash_error
+				flash[:error] = "there must be something wrong with this rails app&hearts;,, ;"
       end
 
     elsif @bigup.destroy
       flash[:success] = "post removed"
     else
-      flash_error
+			flash[:error] = "there must be something wrong with this rails app&hearts;,, ;"
     end
 
     redirect_to request.env['HTTP_REFERER']

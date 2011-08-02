@@ -23,11 +23,12 @@ class SpoolsController < ApplicationController
   end
 
   def create
-    @spool = Spool.new(params[:spool])
-    if @spool.save
+    spool = Spool.new(params[:spool])
+    if spool.save
       flash[:success] = "thread posted"
     else
-      flash_error
+			flash[:error] = ''
+			spool.errors.each{|attr, msg| flash[:error] << msg}
     end
     redirect_to root_path
   end

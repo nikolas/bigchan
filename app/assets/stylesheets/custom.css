@@ -14,17 +14,9 @@ body {
   cursor: url("/assets/cursor.cur"), auto;
 }
 
-input:hover,
+input[type=text]:hover,
 textarea:hover {
 	border: dashed 1px #000;
-}
-
-input#spool_submit:hover {
-	border: dashed 2px #000;
-}
-
-input[type=file]:hover {
-	border: none;
 }
 
 img.tool {
@@ -209,7 +201,6 @@ form textarea {
 }
 
 div.flash {
-	display: none;
 }
 
 div.abbreviator {
@@ -228,19 +219,16 @@ img.big_tool:hover {
   background-image: url("/assets/red_dot.png");
 	overflow-x: visible;
 	overflow: visible;
-	width: 100px;
 }
 
 img.little_tool:hover {
   background-image: url("/assets/red_dot.png");
 	overflow-x: visible;
 	overflow: visible;
-	width: 50px;
 }
 
 img#jukebox:hover {
   background-image: url("/assets/red_dot.png");
 	overflow-x: visible;
 	overflow: visible;
-	width: 40px;
 }
