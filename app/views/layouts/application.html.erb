@@ -24,7 +24,14 @@
 		<div style="clear:both;"></div>
 
 		<% flash.each do |key, value| %>
-			<%= content_tag(:div, value, :class => "flash #{key}") %>
+                  <div class="flash <%="#{key}"%>">
+                    <% if key == :error %>
+                      <%= image_tag('roadblock.gif', :title => 'Error') %>
+                    <% elsif key == :success %>
+                      <%= image_tag('present.gif', :title => 'Success') %>
+                    <% end %>
+                    <%= value %>
+                  </div>
 		<% end %>
 
 		<%= yield %>
