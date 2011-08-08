@@ -70,6 +70,26 @@ img.tool {
 	-moz-box-shadow: 5px 5px 20px #000;
 	-webkit-box-shadow: 5px 5px 20px #000;
 }
+.outer_bubble_orange {
+  background: #f0d0a0;
+  background-image: url('/assets/b.png');
+  background-repeat: no-repeat;
+}
+.outer_bubble_blue {
+  background: #a0d0f0;
+  background-image: url('/assets/b.png');
+  background-repeat: no-repeat;
+}
+.outer_bubble_green {
+  background: #a0f0d0;
+  background-image: url('/assets/b.png');
+  background-repeat: no-repeat;
+}
+.outer_bubble_pink {
+  background: #f0a0a0;
+  background-image: url('/assets/b.png');
+  background-repeat: no-repeat;
+}
 
 .bubble .comment p {
 	max-width: 600px;
@@ -80,8 +100,13 @@ img.tool {
   text-align: center;
 }
 
+.bigup_content {
+	width: 60%;
+	float: left;
+}
 .bigup_controls {
-  float: right;
+	width: 40%;
+	float: left;
 }
 
 .anchor, .reply, .pagination {
