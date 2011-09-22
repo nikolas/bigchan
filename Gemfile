@@ -20,6 +20,6 @@ gem 'therubyracer', '>= 0.9.2', :group => :development
 gem 'sqlite3-ruby', :group => :development
 
 group :production do
-	#gem 'therubyracer-heroku', '>= 0.8.1.pre3'
+	gem 'therubyracer-heroku', '>= 0.8.1.pre3'
 	gem 'pg'
 end
