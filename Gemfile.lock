@@ -39,7 +39,10 @@ GEM
     aws-sdk-resources (2.0.47)
       aws-sdk-core (= 2.0.47)
     builder (3.0.4)
-    cocaine (0.2.0)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.7)
+      climate_control (>= 0.0.3, < 1.0)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -64,10 +67,10 @@ GEM
     mime-types (1.25.1)
     multi_json (1.11.0)
     nokogiri (1.5.0)
-    paperclip (2.4.1)
-      activerecord (>= 2.3.0)
-      activesupport (>= 2.3.2)
-      cocaine (>= 0.0.2)
+    paperclip (4.2.1)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
       mime-types
     pg (0.11.0)
     polyglot (0.3.5)
