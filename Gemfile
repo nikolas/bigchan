@@ -9,6 +9,7 @@ gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 gem 'aws-sdk'
 gem 'will_paginate', '3.0.pre4'
