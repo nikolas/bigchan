@@ -1,25 +1,30 @@
-source :gemcutter
+source "https://rubygems.org"
 
-gem 'rails', '~>3.1'
+ruby '2.0.0'
 
-# Asset template engines
+gem 'rails', '3.2.21'
+
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 
 gem 'jquery-rails'
 
-gem 'aws-s3', :require => 'aws/s3'
+gem 'aws-sdk'
 gem 'will_paginate', '3.0.pre4'
 gem 'paperclip'
 gem 'RedCloth'
 gem 'sanitize'
-gem 'rails_autolink'
+gem 'iconv'
 
-gem 'therubyracer', '>= 0.9.2', :group => :development
-gem 'sqlite3-ruby', :group => :development
+gem 'therubyracer'
+
+group :development, :test do
+  gem 'sqlite3'
+end
 
 group :production do
-	gem 'therubyracer-heroku', '>= 0.8.1.pre3'
 	gem 'pg'
 end
+
+gem 'puma'

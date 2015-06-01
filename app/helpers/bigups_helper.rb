@@ -1,8 +1,6 @@
-require 'rails_autolink'
-
 module BigupsHelper
 	def display(content)
-		auto_link(sanitize(content))
+		sanitize(content)
 	end
 
 	def wrap(content)
