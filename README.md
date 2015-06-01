@@ -15,8 +15,7 @@ Bigchan is aware of three [environment variables](http://en.wikipedia.org/wiki/E
 
 (Replace "bigchan" with whatever you called your instance)
 
-Bigchan is tested with Ruby 1.9.2 on Rails 3. Tell Heroku to use the right version of Ruby:
-`heroku stack:migrate bamboo-mri-1.9.2 --app bigchan`
+Bigchan is tested with Ruby 2.0.0 on Rails 3.2.
 
 Now you need to send your bigchan instance over to Heroku so they can have a slug compiled for you.
 `git push git@heroku.com:bigchan.git`
