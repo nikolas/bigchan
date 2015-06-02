@@ -11,7 +11,7 @@ gem 'uglifier'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
-gem 'aws-sdk'
+gem 'aws-sdk', '< 2.0'
 gem 'will_paginate'
 gem 'paperclip'
 gem 'RedCloth'
