@@ -11,7 +11,7 @@ module ApplicationHelper
   def facebook_like(like_path)
     content_tag :iframe,
         nil,
-        :src => "http://www.facebook.com/plugins/like.php?href=#{like_path}&layout=standard&show_faces=false&width=450&action=like&font=verdana&colorscheme=light&height=35",
+        :src => "https://www.facebook.com/plugins/like.php?href=#{like_path}&layout=standard&show_faces=false&width=450&action=like&font=verdana&colorscheme=light&height=35",
         :scrolling => 'no',
         :frameborder => '0',
         :style => "border:none; overflow:hidden",
@@ -23,7 +23,7 @@ module ApplicationHelper
   def facebook_little_like(like_path)
     content_tag :iframe,
         nil,
-        :src => "http://www.facebook.com/plugins/like.php?href=#{like_path}&layout=button_count&show_faces=false&width=450&action=like&font=verdana&colorscheme=light&height=35",
+        :src => "https://www.facebook.com/plugins/like.php?href=#{like_path}&layout=button_count&show_faces=false&width=450&action=like&font=verdana&colorscheme=light&height=35",
         :scrolling => 'no',
         :frameborder => '0',
         :style => "border:none; overflow:hidden",
