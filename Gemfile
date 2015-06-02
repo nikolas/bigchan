@@ -16,7 +16,6 @@ gem 'will_paginate'
 gem 'paperclip'
 gem 'RedCloth'
 gem 'sanitize'
-gem 'iconv'
 
 gem 'therubyracer'
 

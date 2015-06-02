@@ -27,8 +27,8 @@ class SpoolsController < ApplicationController
     if spool.save
       flash[:success] = "thread posted"
     else
-			flash[:error] = ''
-			spool.errors.each{|attr, msg| flash[:error] << msg}
+            flash[:error] = ''
+            spool.errors.each{|attr, msg| flash[:error] << msg}
     end
     redirect_to root_path
   end
