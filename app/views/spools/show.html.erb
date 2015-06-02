@@ -1,8 +1,9 @@
 <div class="floating outer_bubble_<%= random_color %>">
-  <% unless @spool.bigups.empty? %>
-    <%= render @bigups %>
-  <% end %>
+    <% unless @spool.bigups.empty? %>
+        <%= render @bigups %>
+    <% end %>
 	<div class="mover"><%= image_tag('tool.png', :class => 'tool big_tool', :title => 'Move') %></div>
-  <div class="like"><%= facebook_like "#{CGI::escape(request.url)}" %></div>
-  <%= render 'bigups/form' %>
+    <div class="clear"></div>
+    <div class="like"><%= facebook_like "#{CGI::escape(request.url)}" %></div>
+    <%= render 'bigups/form' %>
 </div>

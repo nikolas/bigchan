@@ -1,17 +1,18 @@
 <div class="floating outer_bubble_<%= random_color %>">
-  <a name="<%= spool.id %>"></a>
-  <% if spool.bigups.length <= 3 %>
-    <%= render spool.bigups %>
-  <% else %>
-    <%= render spool.bigups.first %>
-    <div class="abbreviator"><%= link_to '...', spool %></div>
-    <%= render spool.bigups[-2] %>
-    <%= render spool.bigups.last %>
-  <% end %>
+    <a name="<%= spool.id %>"></a>
+    <% if spool.bigups.length <= 3 %>
+        <%= render spool.bigups %>
+    <% else %>
+        <%= render spool.bigups.first %>
+        <div class="abbreviator"><%= link_to '...', spool %></div>
+        <%= render spool.bigups[-2] %>
+        <%= render spool.bigups.last %>
+    <% end %>
 
 	<div class="mover"><%= image_tag('tool.png', :class => 'tool big_tool', :title => 'Move') %></div>
-  <div class="like"><%= facebook_like "#{CGI::escape(request.url)}#{spool.id}" %></div>
-  <div class="reply">
-    <%= link_to 'reply', "#{spool.id}#reply" %>
-  </div>
+    <div class="clear"></div>
+    <div class="like"><%= facebook_like "#{CGI::escape(request.url)}#{spool.id}" %></div>
+    <div class="reply">
+        <%= link_to 'reply', "#{spool.id}#reply" %>
+    </div>
 </div>
