@@ -9,6 +9,7 @@ class Bigup < ActiveRecord::Base
 	has_attached_file :pic,
 		:styles => { :large => "640x480>" },
 		:storage => :s3,
+        :s3_protocol => 'https',
 		:s3_credentials => {
 			:access_key_id => ENV['S3_KEY'],
 			:secret_access_key => ENV['S3_SECRET']
