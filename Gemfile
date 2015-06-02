@@ -12,7 +12,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 
 gem 'aws-sdk'
-gem 'will_paginate', '3.0.pre4'
+gem 'will_paginate'
 gem 'paperclip'
 gem 'RedCloth'
 gem 'sanitize'
